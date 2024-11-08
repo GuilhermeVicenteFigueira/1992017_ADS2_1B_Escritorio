@@ -28,11 +28,5 @@ $escritorio = new Escritorio ();
 $escritorio -> adicionarArmario($armario1);
 
 
-if ($escritorio->removerArmario(0)) {
-    echo "Armário removido com sucesso.<br>";
-} else {
-    echo "Falha ao remover o armário.<br>";
-}
-
 
 $escritorio -> auditoria();
